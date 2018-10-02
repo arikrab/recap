@@ -207,7 +207,7 @@ public class Main {
 
     public static int sumDigitL(int number){
         int answear=0;
-        while (number!=1){
+        while (number!=0){
             answear=answear+(number%10);
             number=number/10;
         }
@@ -228,6 +228,6 @@ public class Main {
             System.out.println("root is:"+rootR(26));
             primesL(100);
             primesR(100);
-            System.out.println(sumDigitL(1234));
+            System.out.println(sumDigitL(0));
     }
 }
